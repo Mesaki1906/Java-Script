@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>JavaScript Arrays</h2>
+    <h2>Join() and Pop()</h2>
+    <p>The join() method joins all elements of an array into a string.</p>
+
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="afterfirstpop"></p>
+    <p id="mysecondpop"></p>
+    <p id="aftersecondpop"></p>
+    <script>
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+        document.getElementById("myjoin").innerHTML = fruits.join(" * ");
+        document.getElementById("myfirstpop").innerHTML = fruits.pop();
+        document.getElementById("afterfirstpop").innerHTML = fruits;
+        document.getElementById("mysecondpop").innerHTML = fruits.pop();
+        document.getElementById("aftersecondpop").innerHTML = fruits;
+    </script>
+</body>
+
+</html>
